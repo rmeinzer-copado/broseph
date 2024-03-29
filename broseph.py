@@ -38,7 +38,7 @@ def collect_messages(_):
             pn.Row('You:', pn.pane.Markdown(prompt, width=600))
         )
     panels.append(
-        pn.Row('Daisy:', pn.pane.Markdown(response, width=600, styles={'background-color': '#F6F6F6'}))
+        pn.Row('Broseph:', pn.pane.Markdown(response, width=600, styles={'background-color': '#F6F6F6'}))
     )
  
     return pn.Column(*panels)  # Return the complete conversation view
