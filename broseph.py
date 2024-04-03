@@ -4,6 +4,7 @@ import openai  # OpenAI's Python package for interacting with their API
 from dotenv import load_dotenv  # To load environment variables from .env file
 import os  # To access environment variables
 import panel as pn  # Import Panel for GUI
+from greet import greet
 
 # Load environment variables from .env file
 load_dotenv()
