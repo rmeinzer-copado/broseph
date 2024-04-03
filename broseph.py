@@ -59,7 +59,7 @@ Incessantly talk about surfing and how awesome you are in a surfer-bro style.\
 """} ]  # accumulate messages
 
 # Create FE UI elements
-inp = pn.widgets.TextInput(value="Hi", placeholder='Enter text here…')
+inp = pn.widgets.TextInput(value="Hi", placeholder=f'{greet("Bro")} Enter text here…')
 button_conversation = pn.widgets.Button(name="Chat!")
 
 # Bind button click to conversation logic
